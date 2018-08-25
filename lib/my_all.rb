@@ -7,7 +7,6 @@ while i < collection.length
 block << yield(collection[i])
 i +=1
 end
-end
 
 if block.include(false)
   false
