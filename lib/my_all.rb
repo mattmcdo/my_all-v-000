@@ -8,7 +8,7 @@ block << yield(collection[i])
 i +=1
 end
 
-if block.include(false)
+if block.include?(false)
   false
 else
   true
