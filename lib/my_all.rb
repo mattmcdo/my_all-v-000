@@ -4,7 +4,7 @@ def my_all?(collection)
 block = []
 i = 0
 while i < collection.length
-block << yield(collection[i])  
+block << yield(collection[i])
 i +=1
 end
 end
